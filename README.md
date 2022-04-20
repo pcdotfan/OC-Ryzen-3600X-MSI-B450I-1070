@@ -9,13 +9,12 @@
 | Audio                  | ALC887                                |
 | GPU                    | Nvidia 1070  |
 | RAM                    | 32G DDR4 (16G * 2)                     |
-| Wireless   | RTL8111                               |
+| WiFi   | [Wireless-USB-Adapter](https://github.com/chris1111/Wireless-USB-Adapter)                               |
 | macOS                  | High Sierra (17G14033)                    |
 
 ## Read Me First
 
-- If your cpu don't have 6 cores, you must change patch values
-  of `algrey - Force cpuid_cores_per_package` to boot your system.
+- You must change patch values of `algrey - Force cpuid_cores_per_package` to boot your system if the CPU is not 6-core.
   See [AMD_Vanilla ReadMe](https://github.com/AMD-OSX/AMD_Vanilla#read-me-first) for details.
 
 ## Features
@@ -25,6 +24,7 @@
 - [x] Audio by [AppleALC](https://github.com/acidanthera/AppleALC) (alcid=1)
 - [x] Graphics by [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [Nvidia Webdrivers](https://www.tonymacx86.com/nvidia-drivers/)
 - [ ] Bluetooth (not tested yet)
+- [ ] WiFi (not tested yet)
 - [ ] iMessage / FaceTime / Airdrop / Handoff (not tested yet)
 
 ## Issues
